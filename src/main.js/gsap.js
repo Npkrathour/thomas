@@ -5,10 +5,8 @@ const tl = gsap.timeline({
     start: "bottom 34%",
     end: "top 2%",
     pin: true,
-    markers: true,
+    // markers: true,
   },
 });
 
-const tl2 =gsap.timeline({
-  
-})
+const tl2 = gsap.timeline({});
