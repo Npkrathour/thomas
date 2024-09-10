@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+@font-face {
+  font-family: general;
+  src: url(./GeneralSans-Variable.ttf);
+}
+a {
+  font-family: general;
+}
+h1 {
+  font-family: "Archivo Black", sans-serif !important;
+  font-size: 95px !important;
+  font-weight: 600 !important;
+}
+h2 {
+  font-family: "Archivo Black", sans-serif !important;
+  font-size: 65px !important;
+  font-weight: 500 !important;
+}
+h4 {
+  font-family: "Archivo Black", sans-serif !important;
+}
+p {
+  font-family: general;
+}
+h5 {
+  font-family: general !important;
+}
+
+.anchor-links {
+  & {
+    background-color: #ffffffbd;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+  }
+  a {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+  }
+}
+
+.about-section {
+  & .container {
+    background-color: #22577a;
+    background-image: radial-gradient(at 57% 23%, #22577a 0px, transparent 50%),
+      radial-gradient(at 11% 42%, #38a3a5 0px, transparent 50%),
+      radial-gradient(at 80% 72%, #57cc99 0px, transparent 50%),
+      radial-gradient(at 0% 91%, #38a3a5 0px, transparent 50%),
+      radial-gradient(at 83% 97%, #80ed99 0px, transparent 50%), radial-gradient(at 0% 0%, #57cc99 0px, transparent 50%);
+    border-radius: 25px;
+  }
+  & .about-container-2 {
+    background-color: #291720;
+    color: #fff;
+    background-image: radial-gradient(at 40% 20%, #f75c03 0px, transparent 50%),
+      radial-gradient(at 80% 0%, #820263 0px, transparent 50%), radial-gradient(at 0% 50%, #f75c03 0px, transparent 50%),
+      radial-gradient(at 80% 50%, #d90368 0px, transparent 50%),
+      radial-gradient(at 0% 100%, #820263 0px, transparent 50%),
+      radial-gradient(at 80% 100%, #d90368 0px, transparent 50%),
+      radial-gradient(at 0% 0%, #820263 0px, transparent 50%);
+  }
+  & .about-container-3 {
+    background-color: #202020;
+    color: #fff;
+    background-image: radial-gradient(at 40% 20%, #710000 0px, transparent 50%),
+      radial-gradient(at 80% 0%, #202020 0px, transparent 50%), radial-gradient(at 0% 50%, #202020 0px, transparent 50%),
+      radial-gradient(at 97% 24%, #ffd100 0px, transparent 50%),
+      radial-gradient(at 0% 100%, #710000 0px, transparent 50%),
+      radial-gradient(at 80% 100%, #202020 0px, transparent 50%),
+      radial-gradient(at 0% 0%, #ffd100 0px, transparent 50%);
+  }
+}
