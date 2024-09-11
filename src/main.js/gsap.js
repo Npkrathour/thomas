@@ -1,6 +1,7 @@
 const tl = gsap.timeline({
   scrollTrigger: {
     trigger: ".about-section",
+    scroller: "body",
     scrub: true,
     start: "bottom 34%",
     end: "top 2%",
