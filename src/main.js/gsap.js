@@ -67,3 +67,48 @@ tl3.from(".Navbar", {
   duration: 1,
   delay: 0.2,
 });
+
+var tl6 = gsap.timeline();
+tl6.from(".contact-section .images-1", {
+  duration: 1,
+  rotate: 360,
+  scrollTrigger: {
+    trigger: ".images-1",
+    start: "top 50%",
+    scrub: "true",
+    stagger: 0.5,
+  },
+});
+
+tl6.from(".contact-section .images-4", {
+  duration: 1,
+  rotate: 180,
+  scrollTrigger: {
+    trigger: ".images-4",
+    start: "top 50%",
+    scrub: "true",
+    stagger: 0.5,
+  },
+});
+
+tl6.from(".contact-section .images-5", {
+  duration: 1,
+  rotate: 180,
+  scrollTrigger: {
+    trigger: ".images-5",
+    start: "top 50%",
+    scrub: "true",
+    stagger: 0.5,
+  },
+});
+
+tl6.from(".contact-section .images-3", {
+  duration: 1,
+  rotate: 90,
+  scrollTrigger: {
+    trigger: ".images-3",
+    start: "top 50%",
+    scrub: "true",
+    stagger: 0.5,
+  },
+});
