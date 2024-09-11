@@ -97,3 +97,8 @@ h5 {
   background-image: url(../images/banner.svg);
   width: 100%;
 }
+.contact-section {
+  & img {
+    filter: invert(1);
+  }
+}
