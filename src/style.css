@@ -92,3 +92,8 @@ h5 {
 .marquee .marqueefour {
   animation: marquee 10s linear 7.5s infinite;
 }
+
+.bg-banner {
+  background-image: url(../images/banner.svg);
+  width: 100%;
+}

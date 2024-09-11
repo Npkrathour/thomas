@@ -10,19 +10,6 @@ const tl = gsap.timeline({
   },
 });
 
-// gsap.from(".animate-1", {
-//   scale: 0,
-//   opacity: 0,
-//   duration: 1,
-//   scrollTrigger: {
-//     trigger: ".animate-1",
-//     scroller: "body",
-//     top: "top 60%",
-//     end: "top 30%",
-//     scrub: "true",
-//   },
-// });
-
 const tl2 = gsap.timeline();
 tl2.from(".animate-1", {
   scale: 0.5,
@@ -35,7 +22,6 @@ tl2.from(".animate-1", {
     end: "top 30%",
     scrub: "0.5",
     stagger: "true",
-    markers: "true",
   },
 });
 
@@ -49,7 +35,6 @@ tl2.from(".animate-2", {
     top: "top 50%",
     end: "top 30%",
     scrub: "0.5",
-    markers: "true",
   },
 });
 
@@ -63,7 +48,6 @@ tl2.from(".animate-3", {
     top: "top 50%",
     end: "top 30%",
     scrub: "0.5",
-    markers: "true",
   },
 });
 
