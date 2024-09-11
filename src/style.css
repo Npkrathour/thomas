@@ -75,3 +75,20 @@ h5 {
       radial-gradient(at 0% 0%, #ffd100 0px, transparent 50%);
   }
 }
+
+/* would need to be adjusted depending on time */
+.marquee .marqueeone {
+  animation: marquee 10s linear infinite;
+}
+
+.marquee .marqueetwo {
+  animation: marquee 10s linear 2.5s infinite;
+}
+
+.marquee .marqueethree {
+  animation: marquee 10s linear 5s infinite;
+}
+
+.marquee .marqueefour {
+  animation: marquee 10s linear 7.5s infinite;
+}

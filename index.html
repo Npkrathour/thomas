@@ -92,7 +92,7 @@
             </a>
 
         </div>
-        <ul class="flex justify-center items-center gap-5 p-2 anchor-links">
+        <ul class="flex justify-center items-center gap-5 p-2 anchor-links Navbar">
             <li><a class="bg-slate-200 px-8 py-2 rounded text-gray-700 hover:text-gray-900" href="">Home</a></li>
             <li><a class="bg-slate-200 px-8 py-2 rounded text-gray-700 hover:text-gray-900" href="">About</a></li>
             <li><a class="bg-slate-200 px-8 py-2 rounded text-gray-700 hover:text-gray-900" href="">Works</a></li>
@@ -102,7 +102,7 @@
 
     <!-- ==============Home section============ -->
     <section class="w-full h-screen bg-banner bg-cover bg-center bg-fixed">
-        <div class="container mx-auto w-[1320px] pt-52">
+        <div class="container mx-auto w-[1320px] pt-52 lg:px-0 px-5">
             <div class="grid grid-cols-3">
                 <div class="col-span-2">
                     <h5 class="text-lg font-medium leading-4">Hii I'm,</h5>
@@ -270,20 +270,20 @@
         </div>
     </section>
     <!-- ===================Works section============ -->
-    <section class="w-full bg-banner bg-cover h-auto bg-fixed">
+    <section class="our-work w-full bg-banner bg-cover h-auto bg-fixed">
         <div class="container w-[1320px] mx-auto">
             <div class="works py-10">
                 <h2>Other Work</h2>
             </div>
             <div class="flex items-center gap-14">
                 <div class="w-1/2">
-                    <div class="overflow-hidden mb-14">
+                    <div class="overflow-hidden mb-14 animate-1">
                         <div class="w-full h-screen transition-transform duration-500 hover:scale-105">
                             <img src="./images/time_picker_demo_left_stand.webp" alt=""
                                 class="w-full h-full object-cover">
                         </div>
                     </div>
-                    <div class="overflow-hidden">
+                    <div class="overflow-hidden animate-2">
                         <div class="w-full h-screen overflow-hidden transition-transform duration-500 hover:scale-105">
                             <img src="./images/time_picker_demo_left_stand.webp" alt=""
                                 class="w-full h-full object-cover">
@@ -291,7 +291,7 @@
 
                     </div>
                 </div>
-                <div class="w-1/2 overflow-hidden">
+                <div class="w-1/2 overflow-hidden animate-3">
                     <div class="w-full h-screen overflow-hidden transition-transform duration-500 hover:scale-105">
                         <img src="./images/time_picker_demo_left_stand.webp" alt="">
                     </div>
@@ -356,7 +356,7 @@
         </div>
     </section>
     <!-- ================Footer section================ -->
-    <section class="bg-banner w-full h-[300px] bg-cover bg-fixed overflow-hidden">
+    <section class="bg-banner footer-section w-full h-[300px] bg-cover bg-fixed overflow-hidden">
         <div class="container w-[1320px] mx-auto border-t border-gray-400 relative">
             <div class="flex justify-between pt-10">
                 <div class="">
@@ -401,7 +401,9 @@
                 <a href="" class="text-base font-medium text-sky-800">2024© All rights reserved | Pinku Rathour.</a>
             </div>
             <div class="absolute -bottom-10 left-0 right-0">
-                <h1 class="text-[#00000011]">Developer & Designer</h1>
+                <marquee direction="left">
+                    <h1 class="text-[#00000011] marqueeone">Developer & Designer Developer & Designer </h1>
+                </marquee>
             </div>
         </div>
     </section>
